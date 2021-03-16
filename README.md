@@ -4,6 +4,8 @@ A simple guide on how to set up your predefined Selenium unit tests on CodeGrade
 
 ## Running Selenium with Jest
 
+This first part describes how to set up Selenium with Jest on your local machine for testing and test development purposes. This should work equally well on Linux and macOS. Will it work on Windows? Maybe, probably.
+
 ### Setting up the test environment
 
 This is dead simple. Run the npm installer and everything you need will be installed.
