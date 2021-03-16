@@ -1,0 +1,32 @@
+{
+  "name": "selenium-with-jest-on-codegrade",
+  "version": "1.0.0",
+  "description": "Selenium with Jest on Codegrade",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koddas/selenium-with-jest-on-codegrade.git"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "Selenium",
+    "Jest",
+    "CodeGrade"
+  ],
+  "author": "Johan Holmberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koddas/selenium-with-jest-on-codegrade/issues"
+  },
+  "homepage": "https://github.com/koddas/selenium-with-jest-on-codegrade#readme",
+  "devDependencies": {
+    "geckodriver": "^1.22.2",
+    "jest": "^26.6.3",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.0.0-beta.2"
+  }
+}
