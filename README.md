@@ -35,16 +35,16 @@ Running on CodeGrade is a bit harder than running on your local machine. First o
 
 The CodeGrade setup consists of four fixtures:
 
-- **jest.config.js**, a very basic Jest config file, required by CodeGrade's Jest installation to run at all.
-- **run.sh**, a very simple script used to invoke the headless browser where needed.
-- **setup.sh**, a script that installs the headless browser, the needed npm packages an initalizes Jest.
-- **setup_student.sh**, moves the config file and all test files (i.e., all files named __*test.js__) to a directory where Jest will find them in the next stage.
+- **[jest.config.js](jest.config.js)**, a very basic Jest config file, required by CodeGrade's Jest installation to run at all.
+- **[run.sh](run.sh)**, a very simple script used to invoke the headless browser where needed.
+- **[setup.sh](setup.sh)**, a script that installs the headless browser, the needed npm packages an initalizes Jest.
+- **[setup_student.sh](setup_student.sh)**, moves the config file and all test files (i.e., all files named __*test.js__) to a directory where Jest will find them in the next stage.
 
 This setup also contains two example test files, plus an example HTML file:
 
-- **index.html**, a very basic HTML file, used to demonstrate/test the tests described below.
-- **simple.test.js**, contains two very basic unit tests to test the setup.
-- **selenium.test.js**, contains the same tests as above, but also two rather basic Selenium-based unit tests.
+- **[index.html](index.html)**, a very basic HTML file, used to demonstrate/test the tests described below.
+- **[simple.test.js](simple.test.js)**, contains two very basic unit tests to test the setup.
+- **[selenium.test.js](selenium.test.js)**, contains the same tests as above, but also two rather basic Selenium-based unit tests.
 
 Once you've created a new assignment, upload the fixtures and any test files you want to run on your students' files. Then, proceed to write the following in *Global setup script*:
 
