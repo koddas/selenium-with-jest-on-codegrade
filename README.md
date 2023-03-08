@@ -16,7 +16,7 @@ $ npm install
 
 ### Writing tests
 
-Running Selenium with Jest can be a bit tricky. Selenium is inherently asynchronous, where Jest is not. Be sure to prepend all asynchronous Selenium calls (basically all calls) with an *async*, or the test cases will fail. Some very simple test examples are available in [selenium.test.js](selenium.test.js) and [simple.test.js](simple.test.js). 
+Running Selenium with Jest can be a bit tricky. Selenium is inherently asynchronous, whereas Jest is not. Be sure to prepend all asynchronous Selenium calls (basically all calls) with an *async*, or the test cases will fail. Some very simple test examples are available in [selenium.test.js](selenium.test.js) and [simple.test.js](simple.test.js). 
 
 ### Running the tests
 
