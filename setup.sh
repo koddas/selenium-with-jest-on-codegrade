@@ -10,7 +10,7 @@ sudo apt update
 sudo apt install firefox xvfb
 
 # Installs the neccessary javascript libraries
-npm install -g selenium-webdriver geckodriver
+npm install -g selenium-webdriver@4.0.0-beta.2 geckodriver
 
 # Makes the run script executable
 chmod +x $FIXTURES/run.sh
